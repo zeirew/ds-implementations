@@ -80,38 +80,30 @@ class DynamicArray(object):
     def make_array(self, array_capacity):
         return (array_capacity * ctypes.py_object)() 
 
-    # Instantiate
- 
- 
+
+
+'''
+# Instantiate
 arr = DynamicArray()
- 
+
 # append the new elements
- 
 arr.append(1)
- 
 arr.append(2)
- 
 arr.append(3)
  
 # length of the given append in array
- 
 print(len(arr))
  
 # access the given append in array
- 
 print(arr[1])
- 
 print(arr[2])
  
 # remove the given the array
- 
 arr.removeAt(2)
  
 # length of the array
- 
 print(len(arr))
  
 # index of the array
- 
 print(arr[1])
- 
+'''
