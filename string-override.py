@@ -9,7 +9,7 @@ class MyString(object):
     def append(self, text):
         self.data.extend(text)
 
-
-
+'''
 s = MyString("hi there")
 print(s.data)
+'''
